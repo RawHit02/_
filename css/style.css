@@ -682,6 +682,11 @@ footer .copyright{
         font-size: 1rem;
     }
 }
+@media (max-width:420px){
+    section.Explored .card-wrapper {
+        margin-left: -5rem;
+    }
+}
 @media (max-width:414px){
     section.Explored .card-wrapper{
         margin-left:-5rem;
