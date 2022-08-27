@@ -682,12 +682,7 @@ footer .copyright{
         font-size: 1rem;
     }
 }
-@media (max-width:420px){
-    section.Explored .card-wrapper {
-        margin-left: -5rem;
-    }
-}
-@media (max-width:414px){
+@media (max-width:452px){
     section.Explored .card-wrapper{
         margin-left:-5rem;
     }
@@ -698,6 +693,22 @@ footer .copyright{
         margin-left: 3rem;
         line-height: 3rem;
         font-size: 1rem;
+    }
+}
+@media (max-width:380px){
+    section.Explored .card-wrapper {
+        margin-left: -10rem;
+    }
+}
+
+@media (max-width:350px){
+    section.Explored .card-wrapper {
+        margin-left: -6rem;
+    }
+}
+@media (max-width:346px){
+    section.Explored .card-wrapper {
+        margin-left: -10rem;
     }
 }
 
@@ -768,13 +779,14 @@ footer .copyright{
         display:block;
     }
     section.Explored .card-wrapper{
-        margin-left: -3.5rem;
+        margin-left: -4rem;
     }
     section.Experience p {
         font-size: 1.2rem;
     }
     section.contact .card-wrapper .card  img{
-        mrgin-left:1rem;   
+        mrgin-left:1rem; 
+        text-align : center;  
     }
     section.contact .card-wrapper .card {
         text-align: center;
@@ -791,20 +803,24 @@ footer .copyright{
         max-width:1300px
     }  
 }
-@media (max-width:375px){
-    section.Explored .card-wrapper{
-        margin-left:-4.5rem;
-    }
-    .mobile-nav ul img {
-        margin-left: -3rem;
-    }
-    .mobile-nav ul li a {
-        margin-left: 3rem;
-        line-height: 3rem;
-        font-size: 1rem;
+@media (max-width:360px){
+    section.Explored .card-wrapper {
+    margin-left: -5.2rem;
     }
 }
-@media (max-width:280px){
+@media (max-width:326px){
+    section.Explored .card-wrapper {
+        margin-left: -6rem;
+    }
+    section.Explored .card-wrapper .card img {
+        position: absolute;
+        top: -4rem;
+        left: 28%;
+        transform: translateX(-25%);
+    }
+}
+
+@media (max-width:282px){
     .mobile-nav ul img {
         margin-left: -3rem;
         width:170px;
@@ -856,11 +872,12 @@ footer .copyright{
         margin-left:0.4rem;
     }
     section.Explored .card-wrapper {
-        margin-left: -4.5rem;
+        margin-left: -7rem;
+        margin-gap:0.25rem;
     }
     section.Explored .card-wrapper .card img {
         position: absolute;
-        top: -4rem;
+        top: -3.7rem;
         left: 28%;
         transform: translateX(-25%);
     }
