@@ -54,7 +54,7 @@ header{
 
 @media (min-width: 1200px){
     .container{
-        max-width: 1152px;
+        max-width: 1300px;
     }
 }
 
@@ -434,7 +434,7 @@ footer .copyright{
     color:var(--light);
 }
 
-@media (max-width:1280px){
+@media (max-width:1550px){
     .mobile-nav ul img {
         margin-bottom: 3rem;
         margin-left:6rem;
@@ -443,6 +443,12 @@ footer .copyright{
         margin-left: 6rem;
         line-height: 4rem;
         font-size: 2rem;
+    }
+    section.about .social a {
+        width:60px;
+        height:60px;
+        border-radius:100%;
+        margin-left:4rem;
     }
 }
 @media (max-width:1024px){
@@ -461,18 +467,18 @@ footer .copyright{
     .hero .right h1{
         font-size:3rem;
         margin-top:0.1rem;
-        margin-left:1.7rem;
+        margin-left:-3rem;
     }
     .hero .right h6{
         font-size:2rem;
         margin-top:8rem;
         margin-bottom:0.5rem;
-        margin-left:2rem;
+        margin-left:-2rem;
     }
     .hero .right p{
         line-height:1.8;
         font-size:1.4rem;
-        margin-left:2rem;
+        margin-left:-3rem;
     }
     .btn-secondary{
         margin-left:5.5rem;
@@ -505,7 +511,7 @@ footer .copyright{
         width:60px;
         height:60px;
         border-radius:100%;
-        margin-left:0.4rem;
+        margin-left:2rem;
     }
     .section-heading {
         font-size:2rem;
@@ -910,3 +916,4 @@ footer .copyright{
         padding-top: 1rem;
     }
 }
+
