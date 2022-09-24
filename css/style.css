@@ -296,6 +296,10 @@ section.Experience .slider .slide p{
     color: var(--ternary);
     margin-bottom: 1rem;
 }
+section.Experience .slider .slide a{
+    color: #ABD9FF;
+    text-decoration: none;
+}
 
 section.Experience .slider .slide span{
     font-size: 1.5rem;
