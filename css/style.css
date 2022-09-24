@@ -309,6 +309,7 @@ section.Experience .slider-dots .dots{
     list-style-type:none;
     display:flex!important;
     justify-content:center;
+    margin-top: -18rem;
 
 }
 
