@@ -463,8 +463,8 @@ footer .copyright{
         display:block;
     }
     .hero .left img{
-        width:350px;
-        height:440px;
+        width:260px;
+        height:310px;
         margin-top:2rem;
         
     }
@@ -601,7 +601,13 @@ section.about .social a {
     border-radius: 150%;
     margin-left:0.4rem;
 }
+    .hero .left img {
+        width: 280px;
+        height: 350px;
+        margin-top: 3rem;
+        margin-left: -4rem;
 }
+
 @media (max-width:770px){
     section.about .social{
         margin-left:-4rem;
@@ -1084,7 +1090,7 @@ section.about .social a {
     }
     .hero .left img {
         width: 260px;
-        height: 400px;
+        height: 310px;
     }
     .hero .right strong {
         margin-left: 0rem;
