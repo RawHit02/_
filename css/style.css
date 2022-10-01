@@ -438,7 +438,7 @@ footer .copyright{
     color:var(--light);
 }
 
-@media (max-width:1550px){
+@media (max-width:1920px){
     .mobile-nav ul img {
         margin-bottom: 3rem;
         margin-left:6rem;
@@ -455,6 +455,18 @@ footer .copyright{
         margin-left:4rem;
     }
 }
+@media (max-width:1280px){
+    .hero .right h6 {
+        font-size: 3rem;
+        color: var(--mee);
+        margin-bottom: 1.5rem;
+        margin-top: 8rem;
+    }
+    .hero .left img {
+        width: 400px;
+        height:480px;
+    }
+}
 @media (max-width:1024px){
     header #main-nav{
         display:none;
@@ -463,8 +475,8 @@ footer .copyright{
         display:block;
     }
     .hero .left img{
-        width:260px;
-        height:310px;
+        width:300px;
+        height:370px;
         margin-top:2rem;
         
     }
@@ -583,7 +595,7 @@ footer .copyright{
         margin-left:6rem;
     }
 }
-@media (max-width:912px){
+@media (max-width:990px){
     .mobile-nav ul img {
         margin-left: 6rem;
         width:400px;
@@ -593,6 +605,29 @@ footer .copyright{
         line-height: 4rem;
         font-size: 2rem;
     }
+    .hero .right h6 {
+        font-size: 2rem;
+        margin-top: 8rem;
+        margin-bottom: 0.5rem;
+        margin-left: 3rem;
+    }
+    .hero .right h1 {
+        font-size: 3rem;
+        margin-top: 0.1rem;
+        margin-left: 3rem;
+    }
+    .hero .right p {
+        line-height: 1.8;
+        font-size: 1.4rem;
+        margin-left: 2rem;
+    }
+    .hero .left img {
+        width: 350px;
+        height: 450px;
+        margin-top: 2rem;
+    }
+
+
 }
 @media (max-width:820px){
 section.about .social a {
@@ -601,18 +636,29 @@ section.about .social a {
     border-radius: 150%;
     margin-left:0.4rem;
 }
-    .hero .left img {
-        width: 280px;
-        height: 350px;
-        margin-top: 3rem;
+.hero .right p {
+    line-height: 1.8;
+    font-size: 1.4rem;
+    margin-left: 2rem;
+}
+.hero .right h1 {
+    font-size: 3rem;
+    margin-top: 0.1rem;
+    margin-left: 2rem;
+}
+.hero .right h6 {
+    font-size: 2rem;
+    margin-top: 8rem;
+    margin-bottom: 0.5rem;
+    margin-left: 2rem;
+}
+.hero .left img {
+    width: 350px;
+    height: 430px;
+    margin-top: 3rem;
 }
 
-@media (max-width:770px){
-    section.about .social{
-        margin-left:-4rem;
-    }
 }
-
 @media (max-width:576px){
     .hero{
         flex-direction:column;
@@ -746,6 +792,11 @@ section.about .social a {
         margin-left: 3rem;
         line-height: 3rem;
         font-size: 1rem;
+    }
+    .hero .left img {
+        width: 270px;
+        height: 320px;
+        margin-top: 2rem;
     }
 }
 @media (max-width:380px){
@@ -1088,8 +1139,8 @@ section.about .social a {
         margin-left:-13rem;
     }
     .hero .left img {
-        width: 260px;
-        height: 310px;
+        width: 220px;
+        height: 300px;
     }
     .hero .right strong {
         margin-left: 0rem;
