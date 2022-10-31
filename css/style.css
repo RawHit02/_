@@ -82,7 +82,9 @@ header nav .branding{
 }
 
 .hero .left img{
-    width:450px;
+    width:370px;
+    height:600px;
+    border-radius:60px;
 }
 
 
@@ -463,8 +465,8 @@ footer .copyright{
         margin-top: 8rem;
     }
     .hero .left img {
-        width: 400px;
-        height:480px;
+        width: 300px;
+        height:430px;
     }
 }
 @media (max-width:1024px){
@@ -475,8 +477,8 @@ footer .copyright{
         display:block;
     }
     .hero .left img{
-        width:300px;
-        height:370px;
+        width:260px;
+        height:400px;
         margin-top:2rem;
         
     }
@@ -622,8 +624,8 @@ footer .copyright{
         margin-left: 2rem;
     }
     .hero .left img {
-        width: 350px;
-        height: 450px;
+        width: 300px;
+        height: 460px;
         margin-top: 2rem;
     }
 
@@ -653,8 +655,8 @@ section.about .social a {
     margin-left: 2rem;
 }
 .hero .left img {
-    width: 350px;
-    height: 430px;
+    width: 300px;
+    height: 460px;
     margin-top: 3rem;
 }
 
@@ -794,8 +796,8 @@ section.about .social a {
         font-size: 1rem;
     }
     .hero .left img {
-        width: 270px;
-        height: 320px;
+        width: 260px;
+        height: 390px;
         margin-top: 2rem;
     }
 }
